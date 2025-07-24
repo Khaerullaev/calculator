@@ -1,0 +1,532 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    list-style-type: 0;
+}
+
+.header__bg{
+    background-image: url(img/Livello\ 1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 50px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.header__links ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.header__links {
+    max-width: 1100px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.header__links ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.header__body {
+    max-width: 600px;
+    margin: 250px auto;
+    text-align: center;
+}
+
+.header__body h1 {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header__body p {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.header__body button {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    letter-spacing: 3px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.footer__icons ion-icon{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.footer__icons {
+    color: #ffffff;
+    max-width: 500px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.second__page__bg {
+    background-image: url(img/Rettangolo\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.second__page__info h1{
+    color: #16a085;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.second__page__info p{
+    color: #373737;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.second__page__info button{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    letter-spacing: 3px;
+    background-color: #16a085;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.second__page__info {
+    max-width: 400px;
+}
+
+.second__page__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third__page__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third__page__bg {
+    height: 400px;
+    padding-top: 150px;
+    overflow: hidden;
+}
+
+.third__page__info {
+    max-width: 380px;
+}
+
+.third__page__info button{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    letter-spacing: 3px;
+    background-color: #16a085;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.third__page__info h1{
+    color: #16a085;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.third__page__info p{
+    font-size: 14px;
+    color: #373737;
+    font-weight: 100;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
+
+.forst__page__bg {
+    background-color: #e0e0e0;
+    height: 400px;
+    font-size: 18px;
+    padding-top: 100px;
+    font-weight: 100;
+}
+
+/* .forst__page__img img{
+    margin-left: 100px;
+    margin-bottom: 20px;
+} */
+
+.forst__page__links p{
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.forst__page__links h1{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.forst__page__flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.forst__page__img{
+    max-width: 300px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.forst__page__img h1 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #373737;
+    margin-top: 30px;
+}
+
+.forst__page__img p {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.forst__page__icon img {
+    margin-right: 30px;
+}
+
+.fifth__page__bg {
+    background-image: url(img/Livello\ 3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 50px;
+}
+
+form input {
+    padding: 15px 30px;
+}
+
+.fifth__page__links h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30%;
+}
+
+form button {
+    width: 50px;
+    height: 46px;
+    color: #000000;
+}
+
+form {
+    max-width: 380px ;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* form {
+    text-align: center;
+    max-width: 780px;
+    margin: 0px auto;
+    padding: 20px 40px;
+} */
+
+
+.sex__page__bg {
+    background-color: #cecece;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.sex__page__links {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.sex__page__links h1 {
+    margin-bottom: 20px;
+}
+
+.sex__page__links p {
+    margin-bottom: 60px;
+}
+
+.sex__page__links form button{
+    border-radius: 10px;
+    background-color: #16a085;
+}
+
+.sex__page__links form input{
+    border-radius: 10px;
+    background-color: #16a085;
+
+}
+
+.sex__page__logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* start */ 
+
+.seven__page__bg {
+    height: 100px;
+    padding-top: 40px;
+}
+
+.seven__page__links {
+    max-width: 500px;
+    letter-spacing: 2px;
+}
+
+.seven__page__links h4 {
+    margin-bottom: 20px;
+}
+
+.seven__page__logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .header__bg {
+        height: 1100px;
+    }
+
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    .header__links {
+        flex-direction: column;
+        margin: 0px auto;
+        max-width: 100px;
+    }
+
+    .header__body {
+        flex-direction: column;
+        margin: 0px auto;
+        max-width: 250px;
+        padding-top: 200px;
+    }
+
+    .header__body h1{
+        padding-bottom: 20px;
+    }
+
+    .header__body p {
+        padding-bottom: 20px;
+    }
+
+    .footer__icons {
+        padding-top: 20px;
+    }
+
+    .second__page__bg {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .second__page__info h1{
+        flex-direction: column;
+        margin: 0px auto;
+        max-width: 250px;
+    }
+
+    .second__page__flex{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 400px;
+        margin: 0px auto;
+    }
+
+    .secon__page__img img{
+        width: 300px;
+        height: 400px;
+        padding-top: 50px;
+    }
+
+    /* start - third__page__bg */
+
+    .third__page__bg {
+        flex-direction: column;
+        height: 700px;
+        margin: 0px auto;
+        max-width: 1000px;
+    }
+
+    .third__page__flex{
+        flex-wrap: wrap;
+        max-width: 300px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .third__page__img  img{
+        height: 350px;
+        max-width: 200px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+
+
+    .third__page__info {
+        text-align: center;
+        max-width: 300px;
+        margin: 0px auto;
+    }
+
+    /* start - forst__page__bg */
+
+    .forst__page__bg {
+        flex-direction: column;
+        height: 850px;
+        margin: 0px auto;
+        max-width: 1000px;
+    }
+
+    .forst__page__flex {
+        flex-wrap: wrap;
+        max-width: 380px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .forst__page__icon img{
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    /* start - fifth__page__bg */
+
+    .sex__page__bg {
+        flex-direction: column;
+        height: 600px;
+        margin: 0px auto;
+        max-width: 1000px;
+    }
+
+    .sex__page__logo {
+        flex-wrap: wrap;
+        max-width: 500px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .sex__page__links p{
+        max-width: 700px;
+        margin: 0px auto;
+        font-size: 11px;
+        margin-bottom: 100px;
+    }
+
+    /* start - seven__page__bg */
+
+    .seven__page__bg {
+        flex-direction: column;
+        height: 200px;
+        margin: 0px auto;
+        max-width: 1000px;
+    }
+
+    .seven__page__links {
+        flex-wrap: wrap;
+        max-width: 500px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .seven__page__links img {
+        flex-wrap: wrap;
+        max-width: 500px;
+        margin: 0px auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 0;
+    transition: left;
+    transition: left 0.4s ease;
+}
+
+#nox {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 0;
+    transition: left;
+    transition: left 0.4s ease;
+}
+
+#lox {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 0;
+    transition: left;
+    transition: left 0.4s ease;
+}
+
+.moveImg {
+    position: relative;
+    left: 0;
+    transition: left;
+    transition: left 0.4s ease;
+}
+
+.noveImg {
+    position: relative;
+    left: 0;
+    transition: left;
+    transition: left 0.4s ease;
+}
