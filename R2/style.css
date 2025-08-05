@@ -1,0 +1,52 @@
+ body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to right, #000, #5e7b80);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    #temperature {
+      font-size: 38px;
+      font-weight: bold;
+      color: black;
+    }
+
+    .controls {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    input[type="number"] {
+      padding: 5px;
+      font-size: 16px;
+      width: 80px;
+    }
+
+    button {
+      margin-left: 20px;
+      padding: 10px 20px;
+      font-size: 14px;
+      background-color: #121a1c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    label {
+      color: white;
+    }
