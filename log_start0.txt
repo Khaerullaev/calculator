@@ -1,0 +1,14 @@
+[2025.08.19 10:52:59] Launched version: 6000002, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2025.08.19 10:52:59] Executable dir: C:/Users/amink/OneDrive/Desktop/, name: Telegram.exe
+[2025.08.19 10:52:59] Initial working dir: C:/Users/amink/OneDrive/Desktop/
+[2025.08.19 10:52:59] Working dir: C:/Users/amink/OneDrive/Desktop/
+[2025.08.19 10:52:59] Command line: C:\Users\amink\OneDrive\Desktop\Telegram.exe
+[2025.08.19 10:52:59] Executable path before check: C:/Users/amink/OneDrive/Desktop/Telegram.exe
+[2025.08.19 10:52:59] Logs started
+[2025.08.19 10:52:59] WinRT Supported: [TRUE]
+[2025.08.19 10:52:59] AppUserModelID: Telegram.TelegramDesktop.68c51a41de74ede12f484f0deabfe3ea
+[2025.08.19 10:52:59] Using DirectX compiler 'C:\WINDOWS\SYSTEM32\d3dcompiler_47.dll'.
+[2025.08.19 10:52:59] Connecting local socket to Global\7e92a26ae45d8dd9cf7eef6ae8e39238-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2025.08.19 10:52:59] Socket connected, this is not the first application instance, sending show command...
+[2025.08.19 10:52:59] Show command written, waiting response...
+[2025.08.19 10:52:59] Show command response received, processId = 8560, windowId = 1311954, activating and quitting...
