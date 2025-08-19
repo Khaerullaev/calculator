@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Слайды с логикой</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="slider">
+    
+
+    <div class="slide active">
+      <h2>Температура</h2>
+      <div id="temperature">0°C</div>
+      <div class="controls">
+        <input type="radio" name="unit" id="celsius" checked />
+        <label for="celsius">Цельсий</label>
+        <input type="radio" name="unit" id="fahrenheit" />
+        <label for="fahrenheit">Фаренгейт</label>
+        <input type="number" id="tempInput" placeholder="12" />
+        <button onclick="updateTemperature()">Случайная температура</button>
+      </div>
+    </div>
+
+
+    <div class="slide">
+      <h2>Таймер</h2>
+      <h1 id="time">00:00</h1>
+      <button onclick="start()">Старт</button>
+      <button onclick="stop()">Стоп</button>
+      <button onclick="reset()">Сброс</button>
+    </div>
+
+
+    <div class="slide">
+      <h2>🔥 Добро пожаловать!</h2>
+      <p style="font-size: 18px;">Это красивая надпись с дизайном.</p>
+    </div>
+
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
